@@ -1,5 +1,5 @@
-require "practice/version"
+require "sinatra"
 
-module Practice
-  # Your code goes here...
+get "/" do
+ "Hello, World."
 end
